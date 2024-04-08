@@ -1,4 +1,4 @@
-# 这是一款便捷清理host缓存的chrome插件
+# 这是一款便捷清理 host缓存、sockets缓存 的chrome插件
 * 一键式自动执行以下动作：
   * 打开”chrome://net-internals/#dns“页面
   * 在页面内自动点击clear等操作按钮
