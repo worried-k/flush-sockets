@@ -1,0 +1,23 @@
+{
+  "name": "flush-sockets",
+  "description": "使用此插件，需要启用chrome的此实验功能，访问“chrome://flags/”，启用“Extensions on chrome:// URLs”",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "tab.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["chrome://net-internals/*"],
+      "js": ["flush.js"]
+    }
+  ],
+  "action": {
+      "default_title": "flush-sockets",
+      "default_icon": "logo.png"
+  },
+  "manifest_version": 3
+}
