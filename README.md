@@ -7,13 +7,16 @@
 
 
 ## 使用前置步骤
-* 使用此插件，需要启用chrome的此实验功能，访问“chrome://flags/”
+* 使用此插件，需要启用chrome的此实验功能，访问“<a href="chrome://flags/">chrome://flags/</a>”
 * 搜索并启用“Extensions on chrome:// URLs“
-* 安装chrome插件
+* 访问<a href="chrome://extensions/">chrome扩展程序管理界面</a>
+* 打开“开发者模式”
+
+
+## 安装chrome插件
   * 使用本地插件
     * 克隆本项目到本地
     * chrome添加扩展程序=>加载已解压的扩展程序
   * 使用线上已打包插件
     * <a href="https://github.com/worried-k/flush-sockets/releases">Release下载最新版</a>
-* 将此chrome插件在插件列表并置顶
-* 点击 此插件icon
+    * 拖拽进“扩展程序”界面
