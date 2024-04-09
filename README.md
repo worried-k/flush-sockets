@@ -13,7 +13,7 @@
   * 使用本地插件
     * 克隆本项目到本地
     * chrome添加扩展程序=>加载已解压的扩展程序
-  * 使用线上插件
-    * 在应用商店搜索“flush-sockets”
+  * 使用线上已打包插件
+    * <a href="https://github.com/worried-k/flush-sockets/releases">Release下载最新版</a>
 * 将此chrome插件在插件列表并置顶
 * 点击 此插件icon

@@ -3,8 +3,7 @@
   "description": "使用此插件，需要启用chrome的此实验功能，访问“chrome://flags/”，启用“Extensions on chrome:// URLs”",
   "version": "0.1",
   "permissions": [
-    "activeTab",
-    "tabs"
+    "activeTab"
   ],
   "background": {
     "service_worker": "tab.js"
